@@ -10,6 +10,7 @@
         .carousel-item img {
             width: 100%;
         }
+
         .card-body img {
             width: 100%;
         }
@@ -18,24 +19,35 @@
 
 <body>
     <header>
-
-    </header>
-    <div class="container carousel slide carousel-fade" id="carousel-estacoes" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
-                <img src="images/field-3123271_1280.jpg" alt="Primavera campo">
+        <div class="container carousel slide carousel-fade" id="carousel-estacoes" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="images/field-3123271_1280.jpg" alt="Primavera campo">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/maldives-1993704_1280.jpg" alt="Verão praia">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/autumn-2021154_1280.jpg" alt="Outono casa lago">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/winter-landscape-2995987_1280.jpg" alt="Inverno riacho">
+                </div>
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="images/maldives-1993704_1280.jpg" alt="Verão praia">
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="images/autumn-2021154_1280.jpg" alt="Outono casa lago">
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="images/winter-landscape-2995987_1280.jpg" alt="Inverno riacho">
+            <button type="button" class="carousel-control-prev" data-bs-target="#carousel-estacoes" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#carousel-estacoes" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-estacoes" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-estacoes" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-estacoes" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel-estacoes" data-bs-slide-to="3"></button>
             </div>
         </div>
-    </div>
+    </header>
     <main class="container">
         <div class="row">
             <div class="col-lg-4 col-md-6">
